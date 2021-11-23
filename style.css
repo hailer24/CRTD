@@ -83,7 +83,7 @@ img {
 }
 
 .emp {
-  color: blueviolet;
+  color: #414795;
   text-decoration: bold;
 }
 
@@ -103,13 +103,13 @@ img {
 }
 
 #active a {
-  color: blueviolet;
-  border-bottom: solid blueviolet 2px;
+  color: #414795;
+  border-bottom: solid #414795 2px;
 }
 
 header .contact {
   padding: 15px 25px;
-  background-color: blueviolet;
+  background-color: #414795;
   border: none;
   color: aliceblue;
   font-size: larger;
@@ -117,6 +117,53 @@ header .contact {
   border-radius: 30px;
 }
 
-.logoName .tagline {
+.tagLine {
   font-weight: bold;
+}
+
+#getStarted {
+  background-color: #414795;
+  border: none;
+  font-size: 18px;
+  margin: 40px 0px;
+  padding: 20px 30px;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 2px 10px grey;
+  cursor: pointer;
+}
+#getStarted:hover {
+  transition: all ease-in-out 1s;
+  box-shadow: none;
+}
+
+.fa-play-circle {
+  color: rgb(94, 94, 94);
+  font-size: 50px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.vid {
+  display: flex;
+}
+
+.heading {
+  font-weight: bold;
+}
+.down {
+  background-color: #414795;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+}
+.down i {
+  position: relative;
+  left: 1px;
+  padding: 10px;
+  font-size: 30px;
+  color: whitesmoke;
 }
